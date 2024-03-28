@@ -1,0 +1,148 @@
+@font-face
+{
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-family: Outfit;
+}
+
+@font-face
+{
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-family: Young-Serif;
+}
+
+body
+{
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+    font-family: Outfit;
+    line-height: 1.5;
+}
+
+hr
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0; 
+    border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+.recipe-name
+{
+    margin-top: 0;
+    font-family: Young-Serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 1;
+    color: hsl(24, 5%, 18%);
+}
+
+.container
+{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+}
+
+
+.recipe-image
+{
+    width: 100%;
+}
+
+.wrapper
+{
+    padding: 32px;
+}
+
+.recipe-description
+{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: hsl(30, 10%, 34%);
+}
+
+.preparation-time
+{
+    background-color: hsl(330, 100%, 98%);
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 1.8rem;
+    padding-right: 3rem;
+    border-radius: 15px;
+}
+
+.preparation-time h3
+{
+    margin-bottom: 10px;
+    color: hsl(332, 51%, 32%);
+}
+
+.list
+{
+    padding-left: 20px;
+}
+
+.list li
+{
+    padding-left: 20px;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 10px;
+}
+
+#preparation-list li::marker
+{
+    color: hsl(332, 51%, 32%);
+}
+
+#preparation-list li span
+{
+    font-weight: 700;
+}
+
+.category-text
+{
+    font-family: Young-Serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: hsl(14, 45%, 36%);
+}
+
+#ingredient-list li::marker
+{
+    color: hsl(14, 45%, 36%);
+}
+
+#ingredient-list li span
+{
+    font-weight: 700;
+}
+
+.nutrition-description
+{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: hsl(30, 10%, 34%);
+    text-wrap: pretty;
+}
+
+.flex-container
+{
+    display: flex;
+}
+
+.nutrition-text
+{
+    width: 130px;
+    text-align: start;
+    margin-left: 30px;
+}
+
+#nutritional-type
+{
+    color: hsl(30, 10%, 34%);
+}
+
+#nutritional-value
+{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
