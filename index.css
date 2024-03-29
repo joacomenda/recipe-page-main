@@ -26,6 +26,88 @@ hr
     border-top: 1px solid hsl(30, 18%, 87%);
 }
 
+html
+{
+    font-size: 11px;
+}
+
+@media (min-width: 349px)
+{
+    html
+    {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 401px)
+{
+    html
+    {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 479px)
+{
+    html
+    {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 581px)
+{
+    html
+    {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 768px)
+{
+
+    body
+    {
+        margin: 5vw;
+    }
+
+    .container
+    {
+        border-radius: 15px;
+    }
+
+    .image-container
+    {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .recipe-image
+    {
+        border-radius: 15px;
+    }
+}
+
+@media (min-width: 1280px)
+{
+    body
+    {
+        margin-top: 10vh;
+        margin-left: 25vw;
+        margin-right: 25vw;
+    }
+
+    .container
+    {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+
+
 .recipe-name
 {
     margin-top: 0;
@@ -74,11 +156,6 @@ hr
 {
     margin-bottom: 10px;
     color: hsl(332, 51%, 32%);
-}
-
-.list
-{
-    padding-left: 20px;
 }
 
 .list li
@@ -131,9 +208,9 @@ hr
 
 .nutrition-text
 {
-    width: 130px;
+    width: 15rem;
     text-align: start;
-    margin-left: 30px;
+    margin-left: 3rem;
 }
 
 #nutritional-type
